@@ -1,0 +1,20 @@
+div.tran{
+	width: 60px;
+	height: 22px;
+	border-radius: 30px;
+	/*background property is: color image repeat position 
+	all of these are separated by spaecs*/
+	background: #f2eee1;
+	margin: 100px auto 200px;
+	/*transition: property-name duration*/
+	transition: all 1.5s;
+	text-align: center;
+	color:#bcad7e;
+	padding: 5px;
+}
+
+div.tran:hover{
+	transform: scale(1.5);
+	background-image: /*MISSING!!!!
+	ADD IMAGE!!!!!!!!!*/;
+}
